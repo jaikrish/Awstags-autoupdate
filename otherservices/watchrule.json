@@ -1,0 +1,11 @@
+{
+  "detail": {
+    "eventName": [
+      "CreateQueue",
+      "CreateFunction20150331",
+      "CreateHostedZone",
+      "CreateHealthCheck",
+      "CreateBucket"
+    ]
+  }
+}

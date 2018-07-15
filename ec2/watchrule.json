@@ -1,0 +1,13 @@
+{
+  "detail": {
+    "eventName": [
+      "CreateVolume",
+      "RunInstances",
+      "CreateImage",
+      "CreateSnapshot",
+      "CreateSecurityGroup",
+      "AllocateAddress",
+      "CreateLoadBalancer"
+    ]
+  }
+}

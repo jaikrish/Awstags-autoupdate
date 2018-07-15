@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "cloudtrail:LookupEvents",
+                "ec2:Describe*",
+                "logs:CreateLogStream",
+                "s3:PutBucketTagging",
+                "ec2:CreateTags",
+                "logs:CreateLogGroup",
+                "logs:PutLogEvents",
+                "lambda:TagResource",
+                "sqs:TagQueue",
+                "route53:ChangeTagsForResource",
+                "lambda:ListFunctions",
+                "lambda:ListTags",
+                "lambda:GetFunction"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
